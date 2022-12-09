@@ -35,6 +35,10 @@
     </license>
   </licenses>
 
+  <modules>
+    <module>proto</module>
+  </modules>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>17</java.version>
@@ -110,6 +114,9 @@
               <version>${spotbugs.version}</version>
             </dependency>
           </dependencies>
+          <configuration>
+            <excludeFilterFile>spotbugs-exclude.xml</excludeFilterFile>
+          </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.rat</groupId>
