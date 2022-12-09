@@ -28,7 +28,7 @@ Fixes # (issue)
 * [ ] test: (adding missing tests, refactoring tests; no production code change)
 * [ ] chore: (updating grunt tasks etc; no production code change)
 
-## How Has This Been Tested?
+## How has this been tested?
 
 <!--
 Please describe the tests that you ran to verify your changes.
