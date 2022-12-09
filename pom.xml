@@ -114,6 +114,9 @@
               <version>${spotbugs.version}</version>
             </dependency>
           </dependencies>
+          <configuration>
+            <excludeFilterFile>spotbugs-exclude.xml</excludeFilterFile>
+          </configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.rat</groupId>
