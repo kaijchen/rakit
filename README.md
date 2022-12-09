@@ -56,7 +56,7 @@ $ mvn clean package -DskipTests
 
 This project is inspired by [etcd/raft][2] and [Apache Ratis][3].
 
-[2]: https://github.com/etcd-io/etcd/tree/main/raft "etcd - Raft library"
+[2]: https://github.com/etcd-io/raft "Raft library of etcd"
 [3]: https://github.com/apache/ratis "Apache Ratis"
 
 ## License
