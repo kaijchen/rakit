@@ -115,7 +115,7 @@
             </dependency>
           </dependencies>
           <configuration>
-            <excludeFilterFile>spotbugs-exclude.xml</excludeFilterFile>
+            <excludeFilterFile>dev/spotbugs-exclude.xml</excludeFilterFile>
           </configuration>
         </plugin>
         <plugin>
@@ -138,7 +138,7 @@
           <artifactId>maven-checkstyle-plugin</artifactId>
           <version>${checkstyle-plugin.version}</version>
           <configuration>
-            <configLocation>checkstyle.xml</configLocation>
+            <configLocation>dev/checkstyle.xml</configLocation>
             <encoding>UTF-8</encoding>
             <consoleOutput>true</consoleOutput>
             <failsOnError>true</failsOnError>
