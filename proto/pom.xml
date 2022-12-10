@@ -50,6 +50,12 @@
       <plugin>
         <groupId>org.xolstice.maven.plugins</groupId>
         <artifactId>protobuf-maven-plugin</artifactId>
+        <configuration>
+          <protocArtifact>com.google.protobuf:protoc:${protobuf.version}:exe:${os.detected.classifier}</protocArtifact>
+          <outputDirectory>${project.build.directory}/generated-sources</outputDirectory>
+          <!-- With multiple executions, this must be `false` otherwise we wipe out the previous execution -->
+          <clearOutputDirectory>false</clearOutputDirectory>
+        </configuration>
         <executions>
           <execution>
             <goals>
