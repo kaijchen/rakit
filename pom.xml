@@ -46,7 +46,7 @@
     <maven.compiler.target>${java.version}</maven.compiler.target>
     <apache-rat-plugin.version>0.15</apache-rat-plugin.version>
     <checkstyle-plugin.version>3.2.0</checkstyle-plugin.version>
-    <checkstyle.version>10.5.0</checkstyle.version>
+    <checkstyle.version>10.6.0</checkstyle.version>
     <commons-lang3.version>3.12.0</commons-lang3.version>
     <guava.version>31.1-jre</guava.version>
     <jacoco.version>0.8.8</jacoco.version>
